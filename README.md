@@ -4,6 +4,6 @@ Wbijaj na servery na których gramy:
 - sharpmc.pl
 - mooneu.pl
 Strona wykonana przez:
- 0xf0x_404
- Abel_kaziu
+- 0xf0x_404
+- Abel_kaziu
  
