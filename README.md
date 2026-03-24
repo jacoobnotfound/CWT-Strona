@@ -12,3 +12,5 @@ Państwo jest top 1 na wielu serwerach. Jest ogarnięta liderówka. Pomagamy inn
 - Abel_kaziu
 
 Discord Państwa: [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/Rv4Qy2Jy)
+
+>☠️ *Join. Fight. Win.*
