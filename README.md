@@ -1,9 +1,12 @@
-Wbijaj na servery na których gramy:
+# ⚔️CWT Państwo
+
+Państwo jest top 1 na wielu serwerach. Jest ogarnięta liderówka. Pomagamy innym w rozwoju podczas gry dołącz do naszego państwa zapewnimy ci pomoc w wielu problemach.
+
+# 🔥Gramy na serwerach:
 - fajnemc.pl
-- craftcube.pl
 - sharpmc.pl
 - mooneu.pl
-Strona wykonana przez:
-- 0xf0x_404
+- craftcube.pl
+# 👑Twórcy strony:
+- 0xF0x_404
 - Abel_kaziu
- 
