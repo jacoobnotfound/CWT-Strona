@@ -10,3 +10,5 @@ Państwo jest top 1 na wielu serwerach. Jest ogarnięta liderówka. Pomagamy inn
 # 👑Twórcy strony:
 - 0xF0x_404
 - Abel_kaziu
+
+discord państwa: [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/Rv4Qy2Jy)
