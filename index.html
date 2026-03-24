@@ -1,33 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CWT | REKRUTACJA</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body class="flex flex-col min-h-screen bg-white">
-    <header id="header" class="bg-gray-50 border-b border-gray-200 py-6">
-        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-            <h1 class="font-medium text-4xl text-gray-900">CWT</h1>
-            <nav class="flex gap-8">
-                <!-- Nawigacja -->
-                 <a href="#main" class="text-gray-700 hover:text-gray-900">Strona główna</a>
+<body>
+ 
+    <header id="header">
+        <div class="header-inner">
+            <div class="logo">CWT<span>.</span></div>
+            <nav style="display:flex;gap:2rem;">
+                <a href="#about"  class="nav-link">o nas</a>
+                <a href="#oferta" class="nav-link">usługi</a>
             </nav>
         </div>
     </header>
-
-    <main id="main" class="flex-1 max-w-6xl w-full mx-auto px-4 py-8">
-        <section class="hero py-8 shadow-md rounded-lg bg-gray-50 text-center">
-            <p id="napis-1" class="text-lg text-gray-700 leading-relaxed">Zapraszamy na nową edycję na craftcube.pl</p>
-        </section>
-        <!-- Dodatkowe sekcje -->
-    </main>
-
-    <footer id="footer" class="bg-gray-50 border-t border-gray-200 py-8 mt-auto text-center text-gray-500">
-        <!-- Stopka -->
-            &copy; 2026 CWT. Wszelkie prawa zastrzeżone.
-    </footer>
+ 
+    <section id="hero">
+        <p class="hero-eyebrow">rekrutacja otwarta</p>
+        <h1 class="hero-title">DO<span class="accent">ŁĄCZ</span><br>DO CWT</h1>
+        <p class="hero-sub" id="napis-1">
+            Szukamy graczy, którzy chcą się rozwijać, walczyć i wygrywać razem. Jeśli PvP to Twój żywioł — mamy dla Ciebie miejsce.
+        </p>
+        <a href="#oferta" class="cta-btn">Zobacz co oferujemy</a>
+    </section>
+ 
+    <div class="marquee-wrap">
+        <div class="marquee-track" id="marquee"></div>
+    </div>
+ 
+    <section id="about" class="reveal">
+        <p class="section-label">/ Kim jesteśmy</p>
+        <h2 style="font-size:clamp(2.4rem,5vw,4rem);color:#fff;margin-bottom:1.4rem;">
+            Państwo PvP<br><span style="color:var(--red);">bez kompromisów</span>
+        </h2>
+        <p class="about-text">
+            CWT to państwo tworzone przez graczy dla graczy. Stawiamy na ciągły rozwój, solidną organizację i grę na najwyższym poziomie — bez toksyczności, za to z pełnym zaangażowaniem.
+        </p>
+    </section>
+ 
+    <section id="oferta">
+        <div class="oferta-inner">
+            <p class="section-label reveal">/ Co oferujemy</p>
+            <h2 class="reveal" style="font-size:clamp(2.4rem,5vw,4rem);color:#fff;">
+                Usługi <span style="color:var(--red);">&amp; Benefity</span>
+            </h2>
+            <div class="oferta-grid">
+                <div class="oferta-card"><div class="card-icon">⚔️</div><div class="card-text">Codzienne sparingi – podnieś swoje PvP na wyższy poziom</div></div>
+                <div class="oferta-card"><div class="card-icon">🎯</div><div class="card-text">Trenerzy, którzy pomogą w Twoim rozwoju PvP</div></div>
+                <div class="oferta-card"><div class="card-icon">🌍</div><div class="card-text">Granie na EarthSMP i innych serwerach</div></div>
+                <div class="oferta-card"><div class="card-icon">🤝</div><div class="card-text">Fuzje, sojusze i transfery ON</div></div>
+                <div class="oferta-card"><div class="card-icon">🏆</div><div class="card-text">Regularne eventy, zebrania i turnieje</div></div>
+                <div class="oferta-card"><div class="card-icon">💬</div><div class="card-text">Ogarnięty serwer Discord i świetna organizacja</div></div>
+                <div class="oferta-card"><div class="card-icon">🕹️</div><div class="card-text">Przyjazna atmosfera i gra bez toksyczności</div></div>
+            </div>
+        </div>
+    </section>
+ 
+    <footer id="footer">
+        &copy; 2026 <strong>CWT</strong> &mdash; Wszelkie prawa zastrzeżone.
+    </footer> 
+    <script src="static/js/script.js"></script>
 </body>
-<script src="static/js/script.js"></script>
 </html>
