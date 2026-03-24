@@ -37,7 +37,7 @@ Gramy aktywnie na:
 
 Kliknij i wbij na Discorda:
 
-[![💬 Discord](https://img.shields.io/badge/Discord-Dołącz%20do%20CWT-5865F2?style=for-the-badge&logo=discord&logoColor=white)](LINK_DISCORD)
+[![💬 Discord](https://img.shields.io/badge/Discord-Dołącz%20do%20CWT-5865F2?style=for-the-badge&logo=discord&logoColor=white)]([(https://discord.gg/Rv4Qy2Jy)])
 
 ---
 
